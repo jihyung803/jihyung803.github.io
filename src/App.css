@@ -14,6 +14,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Flexbox를 사용하여 반응형 레이아웃을 만듭니다 */
 }
 
 nav ul li {
@@ -62,5 +63,17 @@ nav ul li a:hover {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* 모바일 환경을 위한 스타일 */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column; /* 모바일에서는 세로로 정렬 */
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
   }
 }
