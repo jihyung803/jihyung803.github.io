@@ -1,0 +1,18 @@
+.main {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main h2 {
+  color: #2c3e50;
+}
+
+.main p {
+  margin: 5px 0;
+}
+
+.profile-image {
+  width: 300px; /* 원하는 크기로 설정하세요 */
+  height: 300px; /* 원하는 크기로 설정하세요 */
+  margin: 10px 0; /* 이미지와 텍스트 사이의 간격 */
+}

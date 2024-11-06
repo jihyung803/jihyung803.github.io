@@ -1,0 +1,12 @@
+.education {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.education h2 {
+  color: #2c3e50;
+}
+
+.education p {
+  margin: 5px 0;
+}

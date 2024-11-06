@@ -1,0 +1,17 @@
+.skills {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.skills h2 {
+  color: #2c3e50;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 5px 0;
+}

@@ -1,0 +1,17 @@
+.projects {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.projects h2 {
+  color: #2c3e50;
+}
+
+.projects h3 {
+  margin-top: 20px;
+  color: #34495e;
+}
+
+.projects p {
+  margin: 5px 0;
+}
