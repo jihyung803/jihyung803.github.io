@@ -5,13 +5,30 @@
 
 .skills h2 {
   color: #2c3e50;
+  text-align: center;
 }
 
-.skills ul {
+.skill-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-section {
+  flex: 1 1 10%; /* 각 섹션이 30% 너비를 가지도록 설정 */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.skill-section h3 {
+  color: #34495e;
+}
+
+.skill-section ul {
   list-style-type: none;
   padding: 0;
 }
 
-.skills li {
+.skill-section ul li {
   margin: 5px 0;
 }
