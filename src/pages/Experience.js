@@ -6,6 +6,15 @@ function Experience() {
     <div className="experience">
       <h2>Experience</h2>
       <div className="experience-details">
+        <h3>Urban Information Lab, University of Texas at Austin</h3>
+        <p>December 2023 – June 2024</p>
+        <p>Advisor: Dr. Junfeng Jiao</p>
+        <div className="experience-details">
+        <p>Designed and developed OpenCityAI, an advanced AI agent leveraging data-driven analysis to tackle complex challenges such as urban planning, construction, and real estate forecasting.</p>
+        <p>Utilized the Mixture of Agents (MOA) technique, integrating DeepSeek R1 alongside multiple models to enable advanced capabilities such as real-time analysis, strategic design support, and multidisciplinary decision-making.</p>
+        </div>
+      </div>
+      <div className="experience-details">
         <h3>Human Language Technology Research Institute, University of Texas at Dallas</h3>
         <p>December 2023 – June 2024</p>
         <p>Advisor: Dr. Vincent Ng</p>
