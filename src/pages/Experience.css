@@ -101,8 +101,7 @@
 
 .timeline-date {
   position: absolute;
-  top: 2rem;
-  transform: translateY(-50%);
+  transform: translateY(-120%);
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   color: white;
   padding: 0.5rem 1rem;
@@ -121,6 +120,7 @@
   padding: 2rem;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
+  margin:20px;
 }
 
 .experience-card:hover {
