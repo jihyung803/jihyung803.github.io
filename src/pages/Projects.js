@@ -146,11 +146,6 @@ function Projects() {
               <span>Huggingface</span>
               <span>PyTorch</span>
             </div>
-            <div className="project-links">
-              <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                <i className="fas fa-external-link-alt"></i> View Project
-              </a>
-            </div>
           </div>
         </div>
 
