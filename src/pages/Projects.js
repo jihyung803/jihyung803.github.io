@@ -52,7 +52,7 @@ function Projects() {
       <div className="project-card">
           <div className="project-header">
             <div className="project-icon">
-              <i className="fas fa-plane"></i>
+              <i class="fa-solid fa-kit-medical"></i>
             </div>
             <h2>Emergency Assistant Agent</h2>
           </div>
@@ -80,7 +80,7 @@ function Projects() {
         <div className="project-card">
           <div className="project-header">
             <div className="project-icon">
-              <i className="fas fa-plane"></i>
+              <i class="fa-solid fa-coins"></i>
             </div>
             <h2>Cryptocurrency Auto-trader</h2>
           </div>
@@ -102,7 +102,7 @@ function Projects() {
         <div className="project-card">
           <div className="project-header">
             <div className="project-icon">
-              <i className="fas fa-plane"></i>
+              <i class="fa-solid fa-tree-city"></i>
             </div>
             <h2>OpenCityAI</h2>
           </div>
@@ -129,7 +129,7 @@ function Projects() {
         <div className="project-card">
           <div className="project-header">
             <div className="project-icon">
-              <i className="fas fa-plane"></i>
+              <i class="fa-solid fa-microphone"></i>
             </div>
             <h2>Code-Switching ASR</h2>
           </div>
@@ -157,7 +157,7 @@ function Projects() {
         <div className="project-card">
           <div className="project-header">
             <div className="project-icon">
-              <i className="fas fa-plane"></i>
+              <i class="fa-solid fa-spray-can-sparkles"></i>
             </div>
             <h2>Data Cleansing by LLM</h2>
           </div>
@@ -259,14 +259,14 @@ function Projects() {
             <div className="project-icon">
               <i className="fas fa-globe"></i>
             </div>
-            <h2>Korean International Student Association Website</h2>
+            <h2>KISA Website</h2>
           </div>
           <div className="project-content">
             <div className="project-metadata">
               <span><i className="fas fa-building"></i> University of Texas at Dallas</span>
               <span><i className="fas fa-calendar-alt"></i> July 2022 – August 2022</span>
             </div>
-            <p>Utilized React and Firestore to develop the organization's website, including an authorization and post management system for over 120 users.</p>
+            <p>Utilized React and Firestore to develop the Korean International Student Association(KISA)'s website, including an authorization and post management system for over 120 users.</p>
             <p>Conducted code reviews and mentoring 6 team members to improve their technical skills.</p>
             <div className="project-tags">
               <span>React</span>
