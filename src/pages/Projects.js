@@ -58,6 +58,7 @@ function Projects() {
           </div>
           <div className="project-content">
             <div className="project-metadata">
+            <span><i className="fas fa-building"></i> Urban Information Lab</span>
               <span><i className="fas fa-calendar-alt"></i> March 2025 – April 2025</span>
             </div>
             <p>Developed and deployed a full-stack chatbot system using React and Node.js, designed to assist users with emergency preparedness and response. </p>
@@ -85,7 +86,8 @@ function Projects() {
           </div>
           <div className="project-content">
             <div className="project-metadata">
-              <span><i className="fas fa-calendar-alt"></i> March 2025 – April 2025</span>
+            <span><i className="fas fa-building"></i> Urban Information Lab</span>
+              <span><i className="fas fa-calendar-alt"></i> February 2025 – March 2025</span>
             </div>
             <p>Developed an automated cryptocurrency trading system leveraging a reasoning LLM. </p>
             <p>The system autonomously retrieves and processes the latest news, analyzes the most recent OHLC and real-time market data, and predicts price movements.</p>
@@ -106,7 +108,7 @@ function Projects() {
           </div>
           <div className="project-content">
             <div className="project-metadata">
-              <span><i className="fas fa-calendar-alt"></i> March 2025 – April 2025</span>
+              <span><i className="fas fa-calendar-alt"></i> January 2025 – February 2025</span>
             </div>
             <p>Developed a chatbot-based web service using a RAG system enhanced with techniques like RAPTOR. </p>
             <p>AI agent assists with complex housing-related issues and decision-making in the Austin area.</p>
@@ -114,6 +116,59 @@ function Projects() {
               <span>LangChain</span>
               <span>React</span>
               <span>Node.js</span>
+            </div>
+            <div className="project-links">
+              <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                <i className="fas fa-external-link-alt"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-header">
+            <div className="project-icon">
+              <i className="fas fa-plane"></i>
+            </div>
+            <h2>Code-Switching ASR</h2>
+          </div>
+          <div className="project-content">
+            <div className="project-metadata">
+              <span><i className="fas fa-building"></i> University of Texas at Austin</span>
+              <span><i className="fas fa-calendar-alt"></i> November 2024 – December 2025</span>
+            </div>
+            <p>Construct an English-Chinese code-switching automatic speech recognition pipeline model by preprocessing monolingual speech datasets with enhanced multilingual speech recognition. </p>
+            <p>Finetuned Current SotA model for perform better on code-switching datasets.</p>
+            <div className="project-tags">
+              <span>Whisper</span>
+              <span>Python</span>
+              <span>Huggingface</span>
+              <span>PyTorch</span>
+            </div>
+            <div className="project-links">
+              <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                <i className="fas fa-external-link-alt"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-header">
+            <div className="project-icon">
+              <i className="fas fa-plane"></i>
+            </div>
+            <h2>Data Cleansing by LLM</h2>
+          </div>
+          <div className="project-content">
+            <div className="project-metadata">
+              <span><i className="fas fa-building"></i> University of Texas at Austin</span>
+              <span><i className="fas fa-calendar-alt"></i> November 2024 – December 2025</span>
+            </div>
+            <p>Evaluated the effectiveness of LLMs in automated data cleansing, focusing on error detection, normalization, and preprocessing to improve downstream data quality for machine learning pipelines.</p>
+            <div className="project-tags">
+              <span>PyTorch</span>
+              <span>Huggingface</span>
             </div>
             <div className="project-links">
               <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
