@@ -86,7 +86,7 @@ function Projects() {
           </div>
           <div className="project-content">
             <div className="project-metadata">
-            <span><i className="fas fa-building"></i> Urban Information Lab</span>
+              <span><i className="fas fa-building"></i> Urban Information Lab</span>
               <span><i className="fas fa-calendar-alt"></i> February 2025 – March 2025</span>
             </div>
             <p>Developed an automated cryptocurrency trading system leveraging a reasoning LLM. </p>
@@ -108,6 +108,7 @@ function Projects() {
           </div>
           <div className="project-content">
             <div className="project-metadata">
+              <span><i className="fas fa-building"></i> Urban Information Lab</span>
               <span><i className="fas fa-calendar-alt"></i> January 2025 – February 2025</span>
             </div>
             <p>Developed a chatbot-based web service using a RAG system enhanced with techniques like RAPTOR. </p>
@@ -169,6 +170,7 @@ function Projects() {
             <div className="project-tags">
               <span>PyTorch</span>
               <span>Huggingface</span>
+
             </div>
             <div className="project-links">
               <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
