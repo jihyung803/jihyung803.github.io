@@ -61,8 +61,9 @@ function Projects() {
             <span><i className="fas fa-building"></i> Urban Information Lab</span>
               <span><i className="fas fa-calendar-alt"></i> March 2025 – April 2025</span>
             </div>
-            <p>Developed and deployed a full-stack chatbot system using React and Node.js, designed to assist users with emergency preparedness and response. </p>
-            <p>Utilized LangGraph and MCP to integrate various tools to return multiple modal output such as interactive map, youtube video, and weather info.</p>
+            <p>Developed and deployed a full-stack chatbot system using React, MCP, and LangGraph, designed to assist users with emergency preparedness and response. </p>
+            <p>Integrate various tools to return multiple modal output such as interactive map, youtube video, and weather info.</p>
+            <p>Connected with Recursive Abstractive Processing for Tree-Organized Retrieval(RAPTOR) processed RAG knowledge base to retrieves accuracy response.</p>
             <div className="project-tags">
               <span>MCP</span>
               <span>LangGraph</span>
