@@ -54,7 +54,7 @@ function Projects() {
             <div className="project-icon">
               <i class="fa-solid fa-kit-medical"></i>
             </div>
-            <h2>Emergency Assistant Agent (SafeMate)</h2>
+            <h2>SafeMate</h2>
           </div>
           <div className="project-content">
             <div className="project-metadata">
