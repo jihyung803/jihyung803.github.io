@@ -66,18 +66,18 @@ function Main() {
       <div className="hero-section">
         <div className="hero-content">
           <div className="profile-info">
-            <h1 className="hero-title">Jihyung Park</h1>
+            <h1 className="hero-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)', fontWeight: 700, letterSpacing: '1px' }}>Jihyung Park</h1>
             <div className="typewriter-container">
               <span className="role-prefix">I'm a </span>
               <span className="typewriter-text" ref={textRef}></span>
               <span className="cursor">|</span>
             </div>
-            <p className="hero-description">
+            <p className="hero-description" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--text-color)', fontSize: '1.15rem', marginTop: '0.5rem' }}>
               Pursuing a Master's in Computer Science at UT Austin with expertise in AI agents applications and Multi-modal machine learning.
             </p>
             <div className="hero-buttons">
-              <Link to="/projects" className="btn btn-primary">View Projects</Link>
-              <a href="mailto:jihyung803@gmail.com" className="btn btn-secondary">Contact Me</a>
+              <Link to="/projects" className="btn btn-primary" style={{ fontFamily: 'Cormorant Garamond, serif' }}>View Projects</Link>
+              <a href="mailto:jihyung803@gmail.com" className="btn btn-secondary" style={{ fontFamily: 'Cormorant Garamond, serif' }}>Contact Me</a>
             </div>
             <div className="social-links">
               <a href="https://github.com/jihyung803" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -96,7 +96,7 @@ function Main() {
       
       <div className="about-section">
         <div className="card about-card">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>About Me</h2>
           <p>
             I'm Jihyung Park, a graduate student at the University of Texas at Austin specializing in Computer Science. 
             My research focuses on multi-modal machine learning with a particular interest in developing AI systems that 
@@ -111,7 +111,7 @@ function Main() {
       </div>
       
       <div className="highlights-section">
-        <h2 className="section-title">Highlights</h2>
+        <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Highlights</h2>
         <div className="highlights-grid">
           <div className="highlight-card">
             <div className="highlight-icon">
@@ -119,7 +119,7 @@ function Main() {
             </div>
             <h3>Education</h3>
             <p>Master's in Computer Science at UT Austin</p>
-            <Link to="/education" className="highlight-link">Learn more <i className="fas fa-arrow-right"></i></Link>
+            <Link to="/education" className="highlight-link" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)' }}>Learn more <i className="fas fa-arrow-right"></i></Link>
           </div>
           
           <div className="highlight-card">
@@ -128,7 +128,7 @@ function Main() {
             </div>
             <h3>Skills</h3>
             <p>NLP, Programming, Database, and more</p>
-            <Link to="/skills" className="highlight-link">Learn more <i className="fas fa-arrow-right"></i></Link>
+            <Link to="/skills" className="highlight-link" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)' }}>Learn more <i className="fas fa-arrow-right"></i></Link>
           </div>
           
           <div className="highlight-card">
@@ -137,7 +137,7 @@ function Main() {
             </div>
             <h3>Projects</h3>
             <p>AI Trip Planner, Ready2Interview, and more</p>
-            <Link to="/projects" className="highlight-link">Learn more <i className="fas fa-arrow-right"></i></Link>
+            <Link to="/projects" className="highlight-link" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)' }}>Learn more <i className="fas fa-arrow-right"></i></Link>
           </div>
           
           <div className="highlight-card">
@@ -146,7 +146,7 @@ function Main() {
             </div>
             <h3>Experience</h3>
             <p>Research and industry experience</p>
-            <Link to="/experience" className="highlight-link">Learn more <i className="fas fa-arrow-right"></i></Link>
+            <Link to="/experience" className="highlight-link" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)' }}>Learn more <i className="fas fa-arrow-right"></i></Link>
           </div>
         </div>
       </div>

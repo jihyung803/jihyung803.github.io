@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary-color: #3a86ff;
-  --secondary-color: #8338ec;
-  --dark-color: #1a1a2e;
-  --light-color: #ffffff;
-  --text-color: #333333;
-  --light-bg: #f8f9fa;
-  --transition: all 0.3s ease;
-  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  --border-radius: 8px;
+  --primary-color: #e9a06b;
+  --secondary-color: #b97a56;
+  --dark-color: #4e342e;
+  --light-color: #fff8f0;
+  --text-color: #5c4032;
+  --light-bg: #f9f5f1;
+  --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  --box-shadow: 0 4px 12px rgba(185, 122, 86, 0.08);
+  --border-radius: 14px;
 }
 
 * {
@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
   color: var(--text-color);
   background-color: var(--light-bg);
   line-height: 1.6;
@@ -29,9 +29,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: var(--light-bg);
 }
 
-/* Header and Navigation */
 .header-container {
   width: 100%;
   position: sticky;
@@ -41,10 +41,29 @@ body {
 
 header {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-  padding: 1rem 2rem;
+  padding: 1.2rem 2.5rem;
   color: var(--light-color);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(185, 122, 86, 0.08);
   transition: var(--transition);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header.scrolled {
+  box-shadow: 0 4px 16px rgba(185, 122, 86, 0.13);
+  background: linear-gradient(to right, #f9c89b, #b97a56);
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  color: var(--light-color);
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .nav-toggle {
@@ -52,7 +71,7 @@ header {
   background: none;
   border: none;
   color: var(--light-color);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   cursor: pointer;
   transition: var(--transition);
 }
@@ -61,12 +80,16 @@ header {
   transform: scale(1.1);
 }
 
+nav {
+  align-content: center;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.2rem;
 }
 
 nav ul li {
@@ -76,11 +99,13 @@ nav ul li {
 nav ul li a {
   color: var(--light-color);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 500;
   transition: var(--transition);
   padding: 0.5rem 0;
   position: relative;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.5px;
 }
 
 nav ul li a::after {
@@ -98,15 +123,14 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* Main content */
 .content {
   flex: 1;
   margin: 0 auto;
   width: 100%;
   animation: fadeIn 0.5s ease;
+  background: var(--light-bg);
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -118,7 +142,6 @@ nav ul li a:hover::after {
   }
 }
 
-/* Button styles */
 .btn {
   background: var(--primary-color);
   color: var(--light-color);
@@ -130,15 +153,18 @@ nav ul li a:hover::after {
   font-weight: 500;
   text-decoration: none;
   display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(185, 122, 86, 0.08);
 }
 
 .btn:hover {
   background: var(--secondary-color);
   transform: translateY(-3px);
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 6px 18px rgba(185, 122, 86, 0.13);
 }
 
-/* Card styles */
 .card {
   background-color: var(--light-color);
   border-radius: var(--border-radius);
@@ -146,20 +172,23 @@ nav ul li a:hover::after {
   box-shadow: var(--box-shadow);
   transition: var(--transition);
   margin-bottom: 1.5rem;
+  border: 1px solid #f3e1d3;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 24px rgba(185, 122, 86, 0.13);
 }
 
-/* Section headers */
 .section-title {
   position: relative;
   display: inline-block;
   margin-bottom: 2rem;
   font-weight: 600;
-  color: var(--dark-color);
+  color: var(--primary-color);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
 }
 
 .section-title::after {
@@ -170,9 +199,45 @@ nav ul li a:hover::after {
   width: 50px;
   height: 3px;
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  border-radius: 2px;
 }
 
-/* Responsive styles */
+footer {
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 1.2rem 0 0.7rem 0;
+  text-align: center;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.footer-content p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  color: var(--light-color);
+}
+
+.social-links a {
+  color: var(--light-color);
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 992px) {
   .content {
     padding: 1.5rem;
@@ -186,7 +251,6 @@ nav ul li a:hover::after {
     top: 1rem;
     right: 2rem;
   }
-
   nav {
     position: absolute;
     top: 100%;
@@ -194,29 +258,24 @@ nav ul li a:hover::after {
     width: 100%;
     background: var(--dark-color);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: 0.5s ease-in-out;
+    transition: 0.5s cubic-bezier(0.4,0,0.2,1);
   }
-
   nav.open {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     padding: 1rem 0;
   }
-
   nav ul {
     flex-direction: column;
     gap: 1rem;
   }
-
   nav ul li {
     width: 100%;
     text-align: center;
   }
-
   nav ul li a {
     display: block;
     padding: 0.5rem;
   }
-
   nav ul li a::after {
     display: none;
   }
@@ -226,11 +285,9 @@ nav ul li a:hover::after {
   .content {
     padding: 1rem;
   }
-  
   header {
     padding: 1rem;
   }
-  
   .section-title {
     font-size: 1.5rem;
   }

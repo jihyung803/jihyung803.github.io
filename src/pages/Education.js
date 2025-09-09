@@ -44,12 +44,12 @@ function Education() {
 
   return (
     <div className="education-container">
-      <h1 className="page-title">Education</h1>
+      <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Education</h2>
       <p className="page-subtitle">My academic journey and qualifications</p>
       
       <div className="education-cards">
         <div className="education-card">
-          <div className="education-card-header">
+          <div className="education-card-header" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)', fontWeight: 600 }}>
             <div className="university-logo ut-austin">
               <i className="fas fa-university"></i>
             </div>
@@ -84,7 +84,7 @@ function Education() {
         </div>
         
         <div className="education-card">
-          <div className="education-card-header">
+          <div className="education-card-header" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)', fontWeight: 600 }}>
             <div className="university-logo ut-dallas">
               <i className="fas fa-university"></i>
             </div>

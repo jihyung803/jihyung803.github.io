@@ -44,8 +44,8 @@ function Projects() {
 
   return (
     <div className="projects-container">
-      <h1 className="page-title">My Projects</h1>
-      <p className="page-subtitle">A collection of my recent work and achievements</p>
+      <h1 className="page-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)', fontWeight: 700, letterSpacing: '1px' }}>My Projects</h1>
+      <p className="page-subtitle" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--text-color)', fontSize: '1.1rem' }}>A collection of my recent work and achievements</p>
       
       <div className="projects-grid">
 
@@ -71,7 +71,7 @@ function Projects() {
               <span>Python</span>
             </div>
             <div className="project-links">
-              <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+              <a href="https://uil-agents.web.app/" target="_blank" rel="noopener noreferrer" className="project-link" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--secondary-color)' }}>
                 <i className="fas fa-external-link-alt"></i> View Project
               </a>
             </div>

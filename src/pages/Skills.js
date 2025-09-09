@@ -51,7 +51,7 @@ function Skills() {
         <div className="skill-category">
           <div className="category-header">
             <i className="fas fa-brain"></i>
-            <h2>NLP & AI</h2>
+            <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>NLP & AI</h2>
           </div>
           <div className="skill-list">
             <div className="skill-item">
@@ -90,7 +90,7 @@ function Skills() {
         <div className="skill-category">
           <div className="category-header">
             <i className="fas fa-code"></i>
-            <h2>Programming</h2>
+            <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Programming</h2>
           </div>
           <div className="skill-list">
             <div className="skill-item">
@@ -135,7 +135,7 @@ function Skills() {
         <div className="skill-category">
           <div className="category-header">
             <i className="fas fa-database"></i>
-            <h2>Database</h2>
+            <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Database</h2>
           </div>
           <div className="skill-list">
             <div className="skill-item">
@@ -168,7 +168,7 @@ function Skills() {
         <div className="skill-category">
           <div className="category-header">
             <i className="fas fa-users"></i>
-            <h2>Cooperative</h2>
+            <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Cooperative</h2>
           </div>
           <div className="skill-list">
             <div className="skill-item">
@@ -201,7 +201,7 @@ function Skills() {
         <div className="skill-category">
           <div className="category-header">
             <i className="fas fa-tools"></i>
-            <h2>Other Tools</h2>
+            <h2 className="section-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--primary-color)' }}>Other Tools</h2>
           </div>
           <div className="skill-list">
             <div className="skill-item">
