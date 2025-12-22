@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1044 Camino La Costa, Unit 1000</p>
+    <p>1044 Camino La Costa</p>
+    <p>Unit 1000</p>
     <p>Austin, Texas 78752</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
