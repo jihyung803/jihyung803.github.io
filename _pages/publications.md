@@ -7,14 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
+My papers, workshops, and policy reports listed in reverse chronological order. When experiment code is public you'll see a `Code` link; deployment briefings get a `Slides/Docs` note. Use the search box to jump to a venue, keyword, or collaborator.
 
 {% include bib_search.liquid %}
 
 <div class="publications">
-
 {% bibliography %}
-
 </div>

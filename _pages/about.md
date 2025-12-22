@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Responsible AI & Civic Tech @ UT Austin
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1044 Camino La Costa</p>
-    <p>Unit 1000</p>
-    <p>Austin, Texas 78752</p>
+    <p>Gates-Dell Complex (GDC)</p>
+    <p>The University of Texas at Austin</p>
+    <p>Austin, TX 78712</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,4 +27,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am graduate student in computer science at University of Texas at Austin, advised by Prof. Junfeng Jiao. My research interests include LLM alignment, Pragmatic, Ambiguity, AI safety, and LLM reinforcement learning.
+Hi, I'm **Jihyung Park**. I'm a Ph.D. student in Computer Science at UT Austin working with Good Systems and the Urban Information Lab. My research designs civic-minded alignment pipelines so conversational models learn to navigate the pragmatic rules that residents and public servants actually use. I combine LLM alignment, pragmatics, ambiguity modeling, and safety evaluation workflows to support participatory policymaking.
+
+## What I'm focused on now
+
+- **Pragmatic RLHF**: shaping reward models so agents learn when to ask clarifying questions based on Austin 3-1-1 logs and council documents.
+- **Civic Agents Observatory**: co-leading deployments with Austin's 3-1-1 counselors to evaluate trustworthy LLM assistants before they reach residents.
+- **Bilingual evaluation harness**: releasing open-source pipelines that keep Korean/English datasets aligned with the same safety bar.
+
+## Values / keywords
+
+- Alignment & Safety, Ambiguity, Responsible Deployment, Participatory Design, RLHF, Model Governance
+
+## Ways to collaborate
+
+- Pilot a model with municipal or community partners and deliver a safety assessment before launch.
+- Share pragmatic RL/ alignment stack lessons in seminars or guest lectures.
+- Mentor students through the UT Austin Alignment Reading Group and WiCSE research program.
+
+## Contact
+
+Email **jihyung803@utexas.edu** for the fastest response—Slack invitations, dataset requests, and collaboration notes are all welcome.

@@ -7,6 +7,8 @@ nav: false
 nav_order: 4
 ---
 
+Not every snippet from field deployments can be public, but the core experiments and tooling live on GitHub. Below you'll find the Civic Agents Observatory codebase, the Pragmatic RLHF Kit, the Bilingual Eval Harness, and my reading-log notebooks—automatically pulled into cards.
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users

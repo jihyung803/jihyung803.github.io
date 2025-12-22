@@ -2,96 +2,99 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jihyung Park
+    - name: Email
+      value: <a href="mailto:jihyung803@utexas.edu">jihyung803@utexas.edu</a>
+    - name: Affiliation
+      value: Graduate Research Assistant, Department of Computer Science, The University of Texas at Austin
+    - name: Advisor
+      value: Prof. Junfeng Jiao
+    - name: Lab
+      value: Good Systems / Urban Information Lab
+    - name: Location
+      value: Austin, Texas & Seoul, South Korea
     - name: Languages
-      value: English, German
+      value: Korean (native), English (fluent)
+
+- title: Research Focus
+  type: nested_list
+  contents:
+    - title: LLM alignment & safety
+      items:
+        - Robust preference modeling for ambiguous human feedback and multilingual supervision.
+        - Adversarial evaluation of instruction-following models deployed in public data portals.
+    - title: Human-in-the-loop reinforcement learning
+      items:
+        - Reinforcement learning systems that blend offline datasets with targeted policy shaping.
+        - Tool-augmented agents for civic services and participatory planning.
+    - title: Pragmatics & ambiguity
+      items:
+        - Modeling contextual implicatures so large models ask for clarification instead of hallucinating.
+        - Interfaces that allow residents to steer model behavior in natural conversation.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: The University of Texas at Austin
+      year: "2023 &ndash; present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Graduate Research Assistant in the Good Systems Responsible AI initiative.
+        - Dissertation-in-progress on pragmatic alignment for RLHF beyond binary preference data.
+    - title: B.S. in Computer Science & Engineering
+      institution: Seoul, Republic of Korea
+      year: "2016 &ndash; 2021"
       description:
-        - Description 1.
-        - Description 2.
+        - Concentration in natural language processing and human-computer interaction.
+        - Led a campus-wide reading group on trustworthy AI and civic tech.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Good Systems + Urban Information Lab, UT Austin
+      year: "2023 &ndash; present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed an LLM grounding benchmark for Austin city data requests that captures pragmatic ambiguity.
+        - Built a reinforcement learning framework that blends reward modeling with structured safety checks before deployment in municipal chatbots.
+        - Co-authored white papers for local government partners on responsible use of frontier models.
+    - title: Industry Collaborator (Part-time)
+      institution: Mobility & Climate Tech partners in Seoul and Austin
+      year: "2022 &ndash; present"
       description:
-        - Description 1.
-        - Description 2.
+        - Developed lightweight evaluation harnesses so partners could stress-test in-car copilots without shipping private data to third parties.
+        - Delivered workshops on aligning multilingual copilots with corporate safety policies.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Selected Projects
+  type: list_groups
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - title: Alignment Studio
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - A toolkit that automates preference data collection from bilingual domain experts and converts it into policy constraints.
+        - Released internal evaluation cards describing failure cases for 12+ open and frontier models.
+    - title: Civic Agents Observatory
       items:
-        - Max Planck Medal
+        - Joint effort with the City of Austin Innovation Office to prototype retrieval-augmented assistants for 3-1-1 operators.
+        - Includes dashboards tracking hallucination triggers, risky prompts, and patch suggestions for policy writers.
+    - title: Pragmatic RL Playground
+      items:
+        - Interactive notebooks for students to explore how implicature-aware rewards change LLM behavior.
+        - Used in UT Austin’s graduate seminar on language agents (Spring 2024, 70+ participants).
 
-- title: Academic Interests
+- title: Honors & Service
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Recognition
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - 2024 Good Systems Responsible AI seed grant (co-PI).
+        - 2023 UT Austin Graduate School Recruitment Fellowship.
+    - title: Community
       items:
-        - Description 1.
-        - Description 2.
+        - Organizer, UT Austin Alignment Reading Group (bi-weekly, 60+ members).
+        - Mentor, WiCSE undergraduate research program; guided two mentees on safety eval pipelines.
 
-- title: Other Interests
+- title: Beyond Research
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - I document Korean-language explainers about alignment so my family and friends can follow what I do.
+    - Weekend long-distance runner and coffee tasting enthusiast; I keep notes on every cafe near campus.

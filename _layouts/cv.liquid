@@ -27,6 +27,35 @@ layout: default
     </header>
 
     <article>
+      {% assign pdf_url = nil %}
+      {% if page.cv_pdf %}
+        {% assign pdf_url = page.cv_pdf %}
+      {% elsif site.data.socials and site.data.socials.cv_pdf %}
+        {% assign pdf_url = site.data.socials.cv_pdf %}
+      {% endif %}
+      {% if pdf_url %}
+        {% if pdf_url contains '://' %}
+          {% assign pdf_embed_url = pdf_url %}
+        {% elsif pdf_url contains '/' %}
+          {% assign pdf_embed_url = pdf_url | relative_url %}
+        {% else %}
+          {% assign pdf_embed_url = pdf_url | prepend: 'assets/pdf/' | relative_url %}
+        {% endif %}
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium mb-3">Curriculum Vitae</h3>
+          <div class="cv-pdf-embed">
+            <iframe
+              src="{{ pdf_embed_url }}#toolbar=0&navpanes=0"
+              title="{{ page.title }} PDF viewer"
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+          <p class="mt-3 mb-0 text-center">
+            Prefer a download? <a href="{{ pdf_embed_url }}" target="_blank" rel="noopener">Open the PDF in a new tab</a>.
+          </p>
+        </div>
+      {% endif %}
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
@@ -78,6 +107,35 @@ layout: default
     </header>
 
     <article>
+      {% assign pdf_url = nil %}
+      {% if page.cv_pdf %}
+        {% assign pdf_url = page.cv_pdf %}
+      {% elsif site.data.socials and site.data.socials.cv_pdf %}
+        {% assign pdf_url = site.data.socials.cv_pdf %}
+      {% endif %}
+      {% if pdf_url %}
+        {% if pdf_url contains '://' %}
+          {% assign pdf_embed_url = pdf_url %}
+        {% elsif pdf_url contains '/' %}
+          {% assign pdf_embed_url = pdf_url | relative_url %}
+        {% else %}
+          {% assign pdf_embed_url = pdf_url | prepend: 'assets/pdf/' | relative_url %}
+        {% endif %}
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium mb-3">Curriculum Vitae</h3>
+          <div class="cv-pdf-embed">
+            <iframe
+              src="{{ pdf_embed_url }}#toolbar=0&navpanes=0"
+              title="{{ page.title }} PDF viewer"
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+          <p class="mt-3 mb-0 text-center">
+            Prefer a download? <a href="{{ pdf_embed_url }}" target="_blank" rel="noopener">Open the PDF in a new tab</a>.
+          </p>
+        </div>
+      {% endif %}
       <div class="cv">
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
@@ -125,3 +183,11 @@ layout: default
     </article>
   </div>
 {% endunless %}
+
+<style>
+  .cv-pdf-embed iframe {
+    width: 100%;
+    min-height: 80vh;
+    border: none;
+  }
+</style>

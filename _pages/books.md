@@ -11,3 +11,11 @@ collection: books
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
+
+Alignment research can turn into a wall of papers and Slack logs, so books keep me grounded. I rotate between technical texts on evaluation, philosophy that reframes urban systems, and Korean fiction that reminds me why nuance matters. The reviews here double as reading notes I share with labmates.
+
+### Themes I'm exploring right now
+
+- **Pragmatics + NLP**: linguistics and communication theory around ambiguity.
+- **Responsible AI**: nonfiction on alignment, governance, and deployment.
+- **Resilience in fiction**: novels and essays that help me find balance during messy research seasons.

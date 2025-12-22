@@ -9,6 +9,8 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+Here’s a snapshot of the alignment and civic-tech collaborations I run with the City of Austin and industry partners. The `work` category covers long-term deployments, while `fun` documents lab experiments and teaching side projects. Each card lists data access patterns, safety checklists, and repository links.
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

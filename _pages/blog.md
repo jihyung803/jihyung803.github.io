@@ -16,6 +16,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+Field notes from alignment experiments in Austin, civic-tech collaborations, and the books that keep me honest. Posts mix technical walkthroughs with reflection, and every entry links to the evaluation notebooks or datasets needed to reproduce the work.
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
