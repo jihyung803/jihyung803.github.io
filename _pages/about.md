@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Responsible AI & Civic Tech @ UT Austin
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Gates-Dell Complex (GDC)</p>
-    <p>The University of Texas at Austin</p>
-    <p>Austin, TX 78712</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,24 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm **Jihyung Park**. I'm a Ph.D. student in Computer Science at UT Austin working with Good Systems and the Urban Information Lab. My research designs civic-minded alignment pipelines so conversational models learn to navigate the pragmatic rules that residents and public servants actually use. I combine LLM alignment, pragmatics, ambiguity modeling, and safety evaluation workflows to support participatory policymaking.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-## What I'm focused on now
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-- **Pragmatic RLHF**: shaping reward models so agents learn when to ask clarifying questions based on Austin 3-1-1 logs and council documents.
-- **Civic Agents Observatory**: co-leading deployments with Austin's 3-1-1 counselors to evaluate trustworthy LLM assistants before they reach residents.
-- **Bilingual evaluation harness**: releasing open-source pipelines that keep Korean/English datasets aligned with the same safety bar.
-
-## Values / keywords
-
-- Alignment & Safety, Ambiguity, Responsible Deployment, Participatory Design, RLHF, Model Governance
-
-## Ways to collaborate
-
-- Pilot a model with municipal or community partners and deliver a safety assessment before launch.
-- Share pragmatic RL/ alignment stack lessons in seminars or guest lectures.
-- Mentor students through the UT Austin Alignment Reading Group and WiCSE research program.
-
-## Contact
-
-Email **jihyung803@utexas.edu** for the fastest response—Slack invitations, dataset requests, and collaboration notes are all welcome.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

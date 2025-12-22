@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-Field notes from alignment experiments in Austin, civic-tech collaborations, and the books that keep me honest. Posts mix technical walkthroughs with reflection, and every entry links to the evaluation notebooks or datasets needed to reproduce the work.
+I publish essays here whenever I need more than a Slack thread to process what I'm learning. Expect reflections on participatory AI deployments, practical notes for civic data teams, and occasional Korean-language explainers for family and community partners.
 
 <div class="post">
 

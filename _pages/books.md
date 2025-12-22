@@ -11,11 +11,20 @@ collection: books
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
+The shelf here acts as my public reading log. I capture short reactions, highlights I want to bring back to the lab, and the occasional quote that sneaks into my talks.
 
-Alignment research can turn into a wall of papers and Slack logs, so books keep me grounded. I rotate between technical texts on evaluation, philosophy that reframes urban systems, and Korean fiction that reminds me why nuance matters. The reviews here double as reading notes I share with labmates.
+### Current rotation
 
-### Themes I'm exploring right now
+- **Evaluation playbooks** · Technical books on measurement, auditing, and field experiments inform how I design AI interventions for public organizations.
+- **Design + governance** · Essays on civic futures, digital infrastructure, and service design remind me to keep bureaucratic realities in scope.
+- **Korean fiction** · Translated and original works help me stay fluent and give me language for the cultural nuance that shows up in my data stories.
 
-- **Pragmatics + NLP**: linguistics and communication theory around ambiguity.
-- **Responsible AI**: nonfiction on alignment, governance, and deployment.
-- **Resilience in fiction**: novels and essays that help me find balance during messy research seasons.
+### 3 perennial favorites
+
+1. **"Seeing Like a State" — James C. Scott** · For questioning every dashboard that crosses my desk.
+2. **"The Loneliest Americans" — Jay Caspian Kang** · For remembering how policy debates land on real people.
+3. **"Kim Ji-young, Born 1982" — Cho Nam-joo** · For grounding gendered data anecdotes in lived experience.
+
+### To-read queue
+
+- Papers overflow my backlog, so I keep a short queue of books that stretch me beyond code: a deep dive into participatory budgeting, another on multimodal rhetoric, and at least one collection of poetry to recharge.

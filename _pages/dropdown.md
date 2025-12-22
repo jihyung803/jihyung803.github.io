@@ -16,4 +16,4 @@ children:
     permalink: /news/
 ---
 
-Use this dropdown as a quick launcher for the sections people ask for the most. Need collaboration details? Head to `Civic Lab Notes`. Want the latest writing? `Blog`. Curious about my reading log? `Bookshelf`.
+This little launcher mirrors the way my collaborators navigate my work. The bookshelf tracks the research and fiction that fuel my thinking, Civic Lab Notes documents prototyping efforts with municipal partners, Blog rounds up essays on AI for public interest, and News keeps a tidy digest of milestones.
