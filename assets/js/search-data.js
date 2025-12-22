@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Full CV for Jihyung Park (updated quarterly).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -64,17 +64,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -297,17 +286,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -407,21 +385,26 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-pachinko",
+          title: 'Pachinko',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+              window.location.href = "/books/pachinko/";
+            },},{id: "books-the-alignment-problem",
+          title: 'The Alignment Problem',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_alignment_problem/";
+            },},{id: "news-good-systems-alignment-reading-group-시즌-3가-시작되었습니다-이번-학기에는-llm-safety-eval-논문과-실제-배포-사례를-번갈아-다뤄요-슬랙-초대가-필요하면-메일-주세요-sparkles",
+          title: 'Good Systems Alignment Reading Group 시즌 3가 시작되었습니다. 이번 학기에는 LLM safety eval...',
+          description: "",
+          section: "News",},{id: "news-civic-agents-observatory-beta-launch",
+          title: 'Civic Agents Observatory beta launch',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-acl-2024-워크숍에서-진행한-pragmatic-rlhf-beyond-binary-preferences-튜토리얼이-무사히-끝났습니다-실전에서-사용-중인-프롬프트-평가-노트북과-austin-시-데이터셋을-곧-공개할-예정이니-기대해주세요",
+          title: 'ACL 2024 워크숍에서 진행한 “Pragmatic RLHF beyond binary preferences” 튜토리얼이 무사히 끝났습니다. 실전에서...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -473,7 +456,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/CV_Jihyung_Park.pdf", "_blank");
         },
       },{
         id: 'social-email',
