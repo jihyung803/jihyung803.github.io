@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-I write longer-form posts here when lab notes aren't enough: breakdowns of GAUGE experiments, SafeMate deployment retros, SUMO reinforcement-learning tricks, and bilingual explainers for teammates moving between UT Austin, Dallas, and our city partners.
+Short notes on research ideas, project updates, and things I am learning while building LLM and urban AI systems.
 
 <div class="post">
 

@@ -16,4 +16,4 @@ children:
     permalink: /news/
 ---
 
-Each link matches how reviewers usually skim my portfolio: `Bookshelf` hosts annotated reading notes for digital-twin, governance, and linguistics texts; `Civic Lab Notes` captures SafeMate, GAUGE, and Web-SUMO build logs; `Blog` is where I unpack experiments for civic technologists; `News` keeps the quick-hit timeline in sync with current grant and publication updates.
+Extra navigation links are currently hidden from the main menu.

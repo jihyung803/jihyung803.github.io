@@ -10,23 +10,8 @@ collection: books
 >
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
-## Books that I am reading, have read, or will read
-This shelf mirrors the mix of research and fiction that keeps my UT Austin work sharp. I log notes that eventually feed into GAUGE, SafeMate, Web-SUMO, and the policy conversations around them.
+## Reading Notes
 
-### Current rotation
+This page is kept as a private reading shelf for now and is not shown in the main navigation.
 
-- **Conversation safety + linguistics** · Texts on pragmatics and discourse analysis guide how I design lexicon-based escalation detectors for children-facing chatbots.
-- **Digital twins + mobility** · Urban planning and transportation systems books give me baselines for calibrating browser-based SUMO simulations and crowdsourced sensing workflows.
-- **Responsible AI deployments** · Governance and human-in-the-loop titles frame the process and evaluation sections of my SafeMate/SUMO papers.
-
-### On the desk right now
-
-1. **"Reinforcement Learning: An Introduction" — Sutton & Barto** · Fueling experiments that optimize Web-SUMO routing suggestions.
-2. **"Atlas of AI" — Kate Crawford** · A reminder to pair every LLM benchmark with the social context it affects.
-3. **"Kim Ji-young, Born 1982" — Cho Nam-joo** · Keeps me honest when interpreting conversational nuance in Korean/English mixed datasets.
-
-### To-read queue
-
-- A participatory budgeting field guide for a future civic data practicum.
-- "Streetfight" by Janette Sadik-Khan to cross-check my mobility research instincts.
-- A forthcoming anthology on Korean code-switching narratives to better design Code Switch ASR follow-ups.
+I may add short notes here later.

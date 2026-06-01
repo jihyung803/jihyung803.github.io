@@ -1,13 +1,13 @@
 ### Jihyung Park
 
-I'm a CS Ph.D. student at UT Austin focusing on LLM alignment and lead researcher for the Civic Agents Observatory. My work trains pragmatic RLHF systems so models spot ambiguity in resident requests and agency memos before replying.
+I am a computer science researcher at UT Austin working on LLMs, multimodal understanding, and practical AI systems.
 
 **Focus**
 
-- Pragmatic RL & preference modeling for bilingual datasets
-- Safety evaluation pipelines for Austin 3-1-1 and other public-service assistants
-- Participatory design sessions and community workshops
+- LLM safety and conversation-level risk measurement
+- Multimodal meme understanding
+- Urban AI systems and digital twins
 
 **Fun fact**
 
-Weekend hobby: mapping every Austin coffee shop in a notebook that somehow doubles as inspiration for new alignment checklists.
+I like building small systems that turn messy inputs into something easier to reason about.

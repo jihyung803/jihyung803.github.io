@@ -4,7 +4,3 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - jihyung803/civic-agents-observatory
-  - jihyung803/pragmatic-rlhf-kit
-  - jihyung803/bilingual-eval-harness
-  - jihyung803/reading-log-notebooks

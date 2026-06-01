@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: selected public code.
 nav: false
 nav_order: 4
 ---
 
-Not every snippet from field deployments can be public, but the core experiments and tooling live on GitHub. Below you'll find the Civic Agents Observatory codebase, the Pragmatic RLHF Kit, the Bilingual Eval Harness, and my reading-log notebooks—automatically pulled into cards.
+Selected public repositories from my GitHub profile.
 
 {% if site.data.repositories.github_users %}
 
