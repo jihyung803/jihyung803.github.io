@@ -11,20 +11,22 @@ collection: books
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
-The shelf here acts as my public reading log. I capture short reactions, highlights I want to bring back to the lab, and the occasional quote that sneaks into my talks.
+This shelf mirrors the mix of research and fiction that keeps my UT Austin work sharp. I log notes that eventually feed into GAUGE, SafeMate, Web-SUMO, and the policy conversations around them.
 
 ### Current rotation
 
-- **Evaluation playbooks** · Technical books on measurement, auditing, and field experiments inform how I design AI interventions for public organizations.
-- **Design + governance** · Essays on civic futures, digital infrastructure, and service design remind me to keep bureaucratic realities in scope.
-- **Korean fiction** · Translated and original works help me stay fluent and give me language for the cultural nuance that shows up in my data stories.
+- **Conversation safety + linguistics** · Texts on pragmatics and discourse analysis guide how I design lexicon-based escalation detectors for children-facing chatbots.
+- **Digital twins + mobility** · Urban planning and transportation systems books give me baselines for calibrating browser-based SUMO simulations and crowdsourced sensing workflows.
+- **Responsible AI deployments** · Governance and human-in-the-loop titles frame the process and evaluation sections of my SafeMate/SUMO papers.
 
-### 3 perennial favorites
+### On the desk right now
 
-1. **"Seeing Like a State" — James C. Scott** · For questioning every dashboard that crosses my desk.
-2. **"The Loneliest Americans" — Jay Caspian Kang** · For remembering how policy debates land on real people.
-3. **"Kim Ji-young, Born 1982" — Cho Nam-joo** · For grounding gendered data anecdotes in lived experience.
+1. **"Reinforcement Learning: An Introduction" — Sutton & Barto** · Fueling experiments that optimize Web-SUMO routing suggestions.
+2. **"Atlas of AI" — Kate Crawford** · A reminder to pair every LLM benchmark with the social context it affects.
+3. **"Kim Ji-young, Born 1982" — Cho Nam-joo** · Keeps me honest when interpreting conversational nuance in Korean/English mixed datasets.
 
 ### To-read queue
 
-- Papers overflow my backlog, so I keep a short queue of books that stretch me beyond code: a deep dive into participatory budgeting, another on multimodal rhetoric, and at least one collection of poetry to recharge.
+- A participatory budgeting field guide for a future civic data practicum.
+- "Streetfight" by Janette Sadik-Khan to cross-check my mobility research instincts.
+- A forthcoming anthology on Korean code-switching narratives to better design Code Switch ASR follow-ups.

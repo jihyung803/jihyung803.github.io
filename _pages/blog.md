@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-I publish essays here whenever I need more than a Slack thread to process what I'm learning. Expect reflections on participatory AI deployments, practical notes for civic data teams, and occasional Korean-language explainers for family and community partners.
+I write longer-form posts here when lab notes aren't enough: breakdowns of GAUGE experiments, SafeMate deployment retros, SUMO reinforcement-learning tricks, and bilingual explainers for teammates moving between UT Austin, Dallas, and our city partners.
 
 <div class="post">
 

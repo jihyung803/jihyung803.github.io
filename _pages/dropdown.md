@@ -16,4 +16,4 @@ children:
     permalink: /news/
 ---
 
-This little launcher mirrors the way my collaborators navigate my work. The bookshelf tracks the research and fiction that fuel my thinking, Civic Lab Notes documents prototyping efforts with municipal partners, Blog rounds up essays on AI for public interest, and News keeps a tidy digest of milestones.
+Each link matches how reviewers usually skim my portfolio: `Bookshelf` hosts annotated reading notes for digital-twin, governance, and linguistics texts; `Civic Lab Notes` captures SafeMate, GAUGE, and Web-SUMO build logs; `Blog` is where I unpack experiments for civic technologists; `News` keeps the quick-hit timeline in sync with current grant and publication updates.
