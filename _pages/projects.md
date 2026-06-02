@@ -5,63 +5,30 @@ permalink: /projects/
 description: selected research and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [research, systems, coursework]
-horizontal: false
 ---
 
-Selected projects from research, coursework, and applied AI systems.
+## Projects
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+**[AERIC]({% link _projects/aeric.md %})**
 
-{% else %}
+Monitoring hidden-state shifts to detect implicit harmfulness during dialogue.
 
-<!-- Display projects without categories -->
+**[SafeMate]({% link _projects/safemate.md %})**
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+Emergency response and preparedness assistant chatbot developed through Urban Information Lab work.
 
-  <!-- Generate cards for each project -->
+**[Web-SUMO]({% link _projects/web-sumo.md %})**
 
-{% if page.horizontal %}
+Traffic information digital twin combining regional traffic data, SUMO simulation, and reinforcement-learning ideas.
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+**[MemeInterpret]({% link _projects/memeinterpret.md %})**
+
+Dataset work for multimodal meme understanding with captions, surface messages, and background knowledge.
+
+**[Ready2Interview]({% link _projects/ready2interview.md %})**
+
+HackTX project combining document RAG, web search, ASR, and LLM feedback for interview practice.
+
+**[Code Switch ASR]({% link _projects/code-switch-asr.md %})**
+
+Speech recognition experiments for utterances where multiple languages appear together.
