@@ -148,8 +148,11 @@ _styles: >
     <div class="pub-year">2026</div>
   </div>
 
-  <div class="pub-item">
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">AAAI</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/digital_twin_thumb.png' | relative_url }}" alt="Digital twin system overview" />
+    </div>
     <div>
       <p class="pub-title">
         <a href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">
@@ -165,8 +168,11 @@ _styles: >
     <div class="pub-year">2026</div>
   </div>
 
-  <div class="pub-item">
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">arXiv</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/aeric_thumb.png' | relative_url }}" alt="AERIC framework overview" />
+    </div>
     <div>
       <p class="pub-title">
         <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
@@ -183,8 +189,11 @@ _styles: >
     <div class="pub-year">2026</div>
   </div>
 
-  <div class="pub-item">
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">EMNLP</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/memeinterpret_thumb.png' | relative_url }}" alt="MemeInterpret examples" />
+    </div>
     <div>
       <p class="pub-title">
         <a href="https://aclanthology.org/2025.findings-emnlp.871/" target="_blank" rel="noopener">
@@ -205,8 +214,11 @@ _styles: >
     <div class="pub-year">2025</div>
   </div>
 
-  <div class="pub-item">
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">NeurIPS</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/websumo_thumb.png' | relative_url }}" alt="Web-SUMO architecture overview" />
+    </div>
     <div>
       <p class="pub-title">
         <a href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">
