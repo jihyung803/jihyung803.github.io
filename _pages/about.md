@@ -228,7 +228,6 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
     </div>
   </div>
 
-
 </div>
 
 For the full list, see [Publications]({{ '/publications/' | relative_url }}).

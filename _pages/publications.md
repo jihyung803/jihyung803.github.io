@@ -231,7 +231,6 @@ _styles: >
     <div class="pub-year">2025</div>
   </div>
 
-
   <div class="pub-item has-thumb">
     <div><span class="pub-venue">EMNLP</span></div>
     <div class="pub-thumb">
@@ -256,7 +255,5 @@ _styles: >
     </div>
     <div class="pub-year">2025</div>
   </div>
-
-
 
 </div>
