@@ -6,6 +6,7 @@ permalink: /news/
 
 ## Recent highlights
 
+- **2026.06 -- IROS 2026** · XR-DT accepted to the IEEE/RSJ International Conference on Intelligent Robots and Systems.
 - **2026.02 -- AAAI AI4UP Workshop** · Paper accepted on decentralized digital twins with crowdsourced sensing and browser-based edge computation.
 - **2025.12 -- Turing** · Completed LLM trainer work on sequential tool-use data generation and validation.
 - **2025.11 -- EMNLP Findings** · MemeInterpret appeared in Findings of EMNLP 2025.

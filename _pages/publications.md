@@ -148,6 +148,29 @@ _styles: >
   </div>
 
   <div class="pub-item has-thumb">
+    <div><span class="pub-venue">IROS</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/xrdt_thumb.png' | relative_url }}" alt="XR-DT framework overview" />
+    </div>
+    <div>
+      <p class="pub-title">
+        <a href="https://arxiv.org/abs/2512.05270" target="_blank" rel="noopener">
+          XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control
+        </a>
+      </p>
+      <p class="pub-authors">
+        T. Wang, J. Byeon, A. Yehia, Y. Xu, <strong>Jihyung Park</strong>, T. Zeng, S. Chen, Z. Wang, J. Jiao, and C. Claudel
+      </p>
+      <p class="pub-venue-line">In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
+      <p class="pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2512.05270" target="_blank" rel="noopener">arxiv</a>
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2512.05270v2" target="_blank" rel="noopener">pdf</a>
+      </p>
+    </div>
+    <div class="pub-year">2026</div>
+  </div>
+
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">AAAI</span></div>
     <div class="pub-thumb">
       <img src="{{ '/assets/img/publication_preview/digital_twin_thumb.png' | relative_url }}" alt="Digital twin system overview" />
