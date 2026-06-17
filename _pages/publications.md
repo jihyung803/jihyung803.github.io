@@ -14,22 +14,28 @@ _styles: >
 
   .pub-item {
     display: grid;
-    grid-template-columns: 120px minmax(0, 1fr) 90px;
-    column-gap: 2.5rem;
+    grid-template-columns: 88px minmax(0, 1fr) 72px;
+    column-gap: 1.8rem;
     margin-bottom: 3.2rem;
     align-items: start;
   }
 
+  .pub-item.has-thumb {
+    grid-template-columns: 88px 112px minmax(0, 1fr) 72px;
+  }
+
   .pub-venue {
     display: inline-block;
-    min-width: 78px;
-    padding: 0.18rem 0.75rem;
+    min-width: 62px;
+    padding: 0.12rem 0.45rem;
     border-radius: 3px;
     background: var(--global-theme-color);
     color: #fff;
+    font-size: 0.78rem;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
+    white-space: nowrap;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
   }
 
@@ -42,12 +48,13 @@ _styles: >
   }
 
   .pub-thumb {
-    margin-bottom: 0.9rem;
+    margin: 0;
   }
 
   .pub-thumb img {
-    width: 100%;
-    max-width: 460px;
+    width: 108px;
+    height: 108px;
+    object-fit: cover;
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
     background: #fff;
@@ -81,13 +88,16 @@ _styles: >
   }
 
   .pub-links .btn {
-    min-width: 76px;
-    margin-right: 0.75rem;
+    min-width: 52px;
+    margin-right: 0.45rem;
+    padding: 0.16rem 0.45rem;
     border: 1px solid var(--global-text-color);
     border-radius: 2px;
     color: var(--global-text-color);
+    font-size: 0.72rem;
     box-shadow: none;
     font-weight: 600;
+    line-height: 1.2;
     text-transform: uppercase;
   }
 
@@ -111,6 +121,10 @@ _styles: >
       margin-bottom: 2.4rem;
     }
 
+    .pub-item.has-thumb {
+      grid-template-columns: 1fr;
+    }
+
     .pub-year {
       order: -1;
       text-align: left;
@@ -120,12 +134,12 @@ _styles: >
 ---
 
 <div class="pub-list">
-  <div class="pub-item">
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">Manuscript</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/pragrest_thumb.png' | relative_url }}" alt="PRAGREST pipeline overview" />
+    </div>
     <div>
-      <div class="pub-thumb">
-        <img src="{{ '/assets/img/download.png' | relative_url }}" alt="PRAGREST pipeline overview" />
-      </div>
       <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
       <p class="pub-venue-line">In submission</p>

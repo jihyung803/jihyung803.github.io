@@ -53,22 +53,24 @@ I received my B.S. in Computer Science from [The University of Texas at Dallas](
 
   .home-pub-item {
     display: grid;
-    grid-template-columns: 120px minmax(0, 1fr);
-    column-gap: 2rem;
+    grid-template-columns: 88px minmax(0, 1fr);
+    column-gap: 1.8rem;
     margin-bottom: 2.4rem;
     align-items: start;
   }
 
   .home-pub-venue {
     display: inline-block;
-    min-width: 78px;
-    padding: 0.18rem 0.75rem;
+    min-width: 62px;
+    padding: 0.12rem 0.45rem;
     border-radius: 3px;
     background: var(--global-theme-color);
     color: #fff;
+    font-size: 0.78rem;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
+    white-space: nowrap;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
   }
 
@@ -106,13 +108,16 @@ I received my B.S. in Computer Science from [The University of Texas at Dallas](
   }
 
   .home-pub-links .btn {
-    min-width: 70px;
-    margin-right: 0.65rem;
+    min-width: 52px;
+    margin-right: 0.45rem;
+    padding: 0.16rem 0.45rem;
     border: 1px solid var(--global-text-color);
     border-radius: 2px;
     color: var(--global-text-color);
+    font-size: 0.72rem;
     box-shadow: none;
     font-weight: 600;
+    line-height: 1.2;
     text-transform: uppercase;
   }
 
