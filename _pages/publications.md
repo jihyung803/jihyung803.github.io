@@ -148,6 +148,27 @@ _styles: >
   </div>
 
   <div class="pub-item has-thumb">
+    <div><span class="pub-venue">arXiv</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/aeric_thumb.png' | relative_url }}" alt="AERIC framework overview" />
+    </div>
+    <div>
+      <p class="pub-title">
+        <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
+          AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue
+        </a>
+      </p>
+      <p class="pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
+      <p class="pub-venue-line">In submission (Neurips)</p>
+      <p class="pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
+      </p>
+    </div>
+    <div class="pub-year">2026</div>
+  </div>
+
+  <div class="pub-item has-thumb">
     <div><span class="pub-venue">IROS</span></div>
     <div class="pub-thumb">
       <img src="{{ '/assets/img/publication_preview/xrdt_thumb.png' | relative_url }}" alt="XR-DT framework overview" />
@@ -190,26 +211,7 @@ _styles: >
     <div class="pub-year">2026</div>
   </div>
 
-  <div class="pub-item has-thumb">
-    <div><span class="pub-venue">arXiv</span></div>
-    <div class="pub-thumb">
-      <img src="{{ '/assets/img/publication_preview/aeric_thumb.png' | relative_url }}" alt="AERIC framework overview" />
-    </div>
-    <div>
-      <p class="pub-title">
-        <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
-          AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue
-        </a>
-      </p>
-      <p class="pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
-      <p class="pub-venue-line">In submission (Neurips)</p>
-      <p class="pub-links">
-        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
-        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
-      </p>
-    </div>
-    <div class="pub-year">2026</div>
-  </div>
+
 
   <div class="pub-item has-thumb">
     <div><span class="pub-venue">EMNLP</span></div>

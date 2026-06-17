@@ -164,11 +164,28 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
 
 <div class="home-pubs">
   <div class="home-pub-item">
-    <div><span class="home-pub-venue">Manuscript</span></div>
+    <div><span class="home-pub-venue">arxiv</span></div>
     <div>
       <p class="home-pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="home-pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
       <p class="home-pub-venue-line">In submission (EMNLP)</p>
+    </div>
+  </div>
+
+  <div class="home-pub-item">
+    <div><span class="home-pub-venue">arxiv</span></div>
+    <div>
+      <p class="home-pub-title">
+        <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
+          AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue
+        </a>
+      </p>
+      <p class="home-pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
+      <p class="home-pub-venue-line">In submission (Neurips)</p>
+      <p class="home-pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
+      </p>
     </div>
   </div>
 
@@ -207,22 +224,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
     </div>
   </div>
 
-  <div class="home-pub-item">
-    <div><span class="home-pub-venue">arXiv</span></div>
-    <div>
-      <p class="home-pub-title">
-        <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
-          AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue
-        </a>
-      </p>
-      <p class="home-pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
-      <p class="home-pub-venue-line">In submission (Neurips)</p>
-      <p class="home-pub-links">
-        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
-        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
-      </p>
-    </div>
-  </div>
+
 </div>
 
 For the full list, see [Publications]({{ '/publications/' | relative_url }}).
