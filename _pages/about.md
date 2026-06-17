@@ -25,19 +25,28 @@ latest_posts:
 
 Hello. I am a computer science researcher at [The University of Texas at Austin](https://www.utexas.edu/) and a graduate research assistant in the [Urban Information Lab](https://sites.utexas.edu/uil/).
 
-My work focuses on language models, multimodal understanding, and practical AI systems for urban and public-interest settings. I am especially interested in systems that are useful in real workflows, including safety monitoring, digital twins, and multimodal datasets.
+My work focuses on language models, multimodal understanding, and practical AI systems for urban and public-interest settings. I am especially interested in pragmatic reasoning, self-reinforcing training, safety monitoring, digital twins, and multimodal datasets.
 
 I received my B.S. in Computer Science from [The University of Texas at Dallas](https://www.utdallas.edu/), where I worked with the Human Language Technology Research Institute on meme understanding. I have also worked on LLM data generation and validation as an LLM trainer at Turing.
 
 ## News
 
+- **2026** Wrote PRAGREST, a self-supervised framework for improving LLM pragmatic reasoning with counterfactual reasoning traces.
 - **Feb 2026** Decentralized digital twin work accepted to the AAAI AI4UP Workshop.
 - **Nov 2025** MemeInterpret appeared in Findings of EMNLP 2025.
 - **2025** Continued research on AERIC, Web-SUMO, and SafeMate at UT Austin.
 
 ## Publications
 
-1. AAAI AI4UP
+1. Manuscript
+
+   **PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding**
+
+   **Jihyung Park**, M. Huang, L. Liu, and E. Stangel-Eskin
+
+   In submission
+
+2. AAAI AI4UP
 
    [A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation](https://openreview.net/pdf?id=RYsPyMhgUM)
 
@@ -47,7 +56,7 @@ I received my B.S. in Computer Science from [The University of Texas at Dallas](
 
    <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">paper</a>
 
-2. arXiv
+3. arXiv
 
    [AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue](https://arxiv.org/abs/2605.23974)
 
@@ -58,7 +67,7 @@ I received my B.S. in Computer Science from [The University of Texas at Dallas](
    <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
    <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
 
-3. EMNLP Findings
+4. EMNLP Findings
 
    [MemeInterpret: Towards an All-in-one Dataset for Meme Understanding](https://aclanthology.org/2025.findings-emnlp.871/)
 

@@ -108,6 +108,17 @@ _styles: >
 
 <div class="pub-list">
   <div class="pub-item">
+    <div><span class="pub-venue">Manuscript</span></div>
+    <div>
+      <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
+      <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
+      <p class="pub-venue-line">In submission</p>
+      <p class="pub-note">Self-supervised pragmatic QA with counterfactual reasoning traces.</p>
+    </div>
+    <div class="pub-year">2026</div>
+  </div>
+
+  <div class="pub-item">
     <div><span class="pub-venue">AAAI</span></div>
     <div>
       <p class="pub-title">
@@ -181,13 +192,4 @@ _styles: >
     <div class="pub-year">2025</div>
   </div>
 
-  <div class="pub-item">
-    <div><span class="pub-venue">Manuscript</span></div>
-    <div>
-      <p class="pub-title">PragReST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
-      <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
-      <p class="pub-venue-line">In submission</p>
-    </div>
-    <div class="pub-year">2026</div>
-  </div>
 </div>
