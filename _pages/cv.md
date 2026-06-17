@@ -4,14 +4,8 @@ permalink: /cv/
 title: Resume
 nav: true
 nav_order: 2
-description: latest resume.
+description:
 ---
-
-<p>
-  <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/Resume.pdf' | relative_url }}" target="_blank" rel="noopener">
-    Download Resume
-  </a>
-</p>
 
 <iframe
   src="{{ '/assets/pdf/Resume.pdf' | relative_url }}"
