@@ -8,7 +8,7 @@ nav_order: 7
 
 profiles:
   - align: right
-    image: profile_jihyung.jpg
+    image: profile_photo.jpeg
     content: profile_jihyung.md
     image_circular: false
     more_info: >

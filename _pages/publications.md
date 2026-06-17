@@ -7,36 +7,57 @@ nav: true
 nav_order: 2
 ---
 
-## Publications
+## 2026
 
-**A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation**
+1. AAAI AI4UP
 
-S. H. Lewis, J. Jiao, Y. Xu, Jihyung Park, and C. Phillips
+   [A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation](https://openreview.net/pdf?id=RYsPyMhgUM)
 
-AAAI Workshop on AI for Urban Planning, 2026
+   S. H. Lewis, J. Jiao, Y. Xu, **Jihyung Park**, and C. Phillips
 
-**LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents**
+   AAAI Workshop on AI for Urban Planning, 2026
 
-Y. Xu, Jihyung Park, and J. Jiao
+   <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">paper</a>
 
-NeurIPS Workshop on UrbanAI, 2025
+2. arXiv
 
-**MemeInterpret: Towards an All-in-one Dataset for Meme Understanding**
+   [AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue](https://arxiv.org/abs/2605.23974)
 
-J. Park, K. P. N. Nguyen, Jihyung Park, M. Kim, J. Lee, J. W. Choi, K. Ganta, P. A. Kasu, R. Sarakinti, S. Vipperla, S. Sathanapalli, N. Vaghani, and V. Ng
+   **Jihyung Park**, S. Afroogh, and J. Jiao
 
-Findings of EMNLP, 2025
+   arXiv preprint, 2026
 
-## Manuscripts
+   <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
+   <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
 
-**AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue**
+3. Manuscript
 
-Jihyung Park, S. Afroogh, and J. Jiao
+   **PragReST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding**
 
-In submission
+   **Jihyung Park**, M. Huang, L. Liu, and E. Stangel-Eskin
 
-**PragReST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding**
+   In submission
 
-Jihyung Park, M. Huang, L. Liu, and E. Stangel-Eskin
+## 2025
 
-In submission
+1. NeurIPS UrbanAI
+
+   [LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents](https://openreview.net/pdf?id=vEZtmnqmtO)
+
+   Y. Xu, **Jihyung Park**, and J. Jiao
+
+   NeurIPS Workshop on UrbanAI, 2025
+
+   <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">paper</a>
+
+2. EMNLP Findings
+
+   [MemeInterpret: Towards an All-in-one Dataset for Meme Understanding](https://aclanthology.org/2025.findings-emnlp.871/)
+
+   J. Park, K. P. N. Nguyen, **Jihyung Park**, M. Kim, J. Lee, J. W. Choi, K. Ganta, P. A. Kasu, R. Sarakinti, S. Vipperla, S. Sathanapalli, N. Vaghani, and V. Ng
+
+   Findings of EMNLP, 2025
+
+   <a class="btn btn-sm z-depth-0" href="https://aclanthology.org/2025.findings-emnlp.871/" target="_blank" rel="noopener">acl</a>
+   <a class="btn btn-sm z-depth-0" href="https://aclanthology.org/2025.findings-emnlp.871.pdf" target="_blank" rel="noopener">pdf</a>
+   <a class="btn btn-sm z-depth-0" href="https://github.com/npnkhoi/MemeInterpret" target="_blank" rel="noopener">code</a>

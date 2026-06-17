@@ -6,7 +6,7 @@ subtitle: Computer science researcher at UT Austin
 
 profile:
   align: right
-  image: profile_jihyung.jpg
+  image: profile_photo.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Austin, TX</p>
