@@ -142,7 +142,7 @@ _styles: >
     <div>
       <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
-      <p class="pub-venue-line">In submission</p>
+      <p class="pub-venue-line">In submission (EMNLP)</p>
       <p class="pub-note">Self-supervised pragmatic QA with counterfactual reasoning traces.</p>
     </div>
     <div class="pub-year">2026</div>
@@ -180,7 +180,7 @@ _styles: >
         </a>
       </p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
-      <p class="pub-venue-line">arXiv preprint, 2026</p>
+      <p class="pub-venue-line">In submission (Neurips)</p>
       <p class="pub-links">
         <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
         <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
