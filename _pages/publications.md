@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: selected publications and manuscripts.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 ## 2026

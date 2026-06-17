@@ -3,10 +3,20 @@ layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
-description: CV available upon request.
+nav_order: 2
+description: latest curriculum vitae.
 ---
 
-My CV is not posted publicly.
+<p>
+  <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/CV_Jihyung_Park.pdf' | relative_url }}" target="_blank" rel="noopener">
+    Download CV
+  </a>
+</p>
 
-For a copy, contact [jihyung803@utexas.edu](mailto:jihyung803@utexas.edu) or connect on [LinkedIn](https://www.linkedin.com/in/jihyung-park).
+<iframe
+  src="{{ '/assets/pdf/CV_Jihyung_Park.pdf' | relative_url }}"
+  width="100%"
+  height="900"
+  style="border: 1px solid #ddd; border-radius: 4px;"
+  title="Jihyung Park CV"
+></iframe>
