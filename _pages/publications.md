@@ -41,6 +41,19 @@ _styles: >
     line-height: 1.35;
   }
 
+  .pub-thumb {
+    margin-bottom: 0.9rem;
+  }
+
+  .pub-thumb img {
+    width: 100%;
+    max-width: 460px;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: #fff;
+    display: block;
+  }
+
   .pub-title a {
     color: inherit;
     text-decoration: none;
@@ -110,6 +123,9 @@ _styles: >
   <div class="pub-item">
     <div><span class="pub-venue">Manuscript</span></div>
     <div>
+      <div class="pub-thumb">
+        <img src="{{ '/assets/img/download.png' | relative_url }}" alt="PRAGREST pipeline overview" />
+      </div>
       <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
       <p class="pub-venue-line">In submission</p>

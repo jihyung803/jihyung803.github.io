@@ -29,55 +29,174 @@ My work focuses on language models, multimodal understanding, and practical AI s
 
 I received my B.S. in Computer Science from [The University of Texas at Dallas](https://www.utdallas.edu/), where I worked with the Human Language Technology Research Institute on meme understanding. I have also worked on LLM data generation and validation as an LLM trainer at Turing.
 
+<style>
+  .home-news,
+  .home-pubs {
+    margin-top: 1.7rem;
+  }
+
+  .home-news-row {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 2rem;
+    margin-bottom: 1.45rem;
+  }
+
+  .home-news-date {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .home-news-text {
+    margin: 0;
+  }
+
+  .home-pub-item {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 2rem;
+    margin-bottom: 2.4rem;
+    align-items: start;
+  }
+
+  .home-pub-venue {
+    display: inline-block;
+    min-width: 78px;
+    padding: 0.18rem 0.75rem;
+    border-radius: 3px;
+    background: var(--global-theme-color);
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  }
+
+  .home-pub-title {
+    margin: 0 0 0.3rem;
+    color: var(--global-text-color);
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .home-pub-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-pub-title a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .home-pub-authors,
+  .home-pub-venue-line,
+  .home-pub-note {
+    margin: 0.15rem 0;
+    line-height: 1.35;
+  }
+
+  .home-pub-venue-line {
+    font-style: italic;
+  }
+
+  .home-pub-links {
+    margin-top: 0.7rem;
+  }
+
+  .home-pub-links .btn {
+    min-width: 70px;
+    margin-right: 0.65rem;
+    border: 1px solid var(--global-text-color);
+    border-radius: 2px;
+    color: var(--global-text-color);
+    box-shadow: none;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .home-pub-links .btn:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  @media (max-width: 768px) {
+    .home-news-row,
+    .home-pub-item {
+      grid-template-columns: 1fr;
+      row-gap: 0.45rem;
+    }
+  }
+</style>
+
 ## News
 
-- **2026** Wrote PRAGREST, a self-supervised framework for improving LLM pragmatic reasoning with counterfactual reasoning traces.
-- **Feb 2026** Decentralized digital twin work accepted to the AAAI AI4UP Workshop.
-- **Nov 2025** MemeInterpret appeared in Findings of EMNLP 2025.
-- **2025** Continued research on AERIC, Web-SUMO, and SafeMate at UT Austin.
+<div class="home-news">
+  <div class="home-news-row">
+    <div class="home-news-date">2026</div>
+    <p class="home-news-text">Wrote <strong>PRAGREST</strong>, a self-supervised framework for improving LLM pragmatic reasoning with counterfactual reasoning traces.</p>
+  </div>
+  <div class="home-news-row">
+    <div class="home-news-date">Feb 2026</div>
+    <p class="home-news-text">Decentralized digital twin work accepted to the <strong>AAAI AI4UP Workshop</strong>.</p>
+  </div>
+  <div class="home-news-row">
+    <div class="home-news-date">Nov 2025</div>
+    <p class="home-news-text"><strong>MemeInterpret</strong> appeared in Findings of EMNLP 2025.</p>
+  </div>
+  <div class="home-news-row">
+    <div class="home-news-date">2025</div>
+    <p class="home-news-text">Continued research on AERIC, Web-SUMO, and SafeMate at UT Austin.</p>
+  </div>
+</div>
 
 ## Publications
 
-1. Manuscript
+<div class="home-pubs">
+  <div class="home-pub-item">
+    <div><span class="home-pub-venue">Manuscript</span></div>
+    <div>
+      <p class="home-pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
+      <p class="home-pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
+      <p class="home-pub-venue-line">In submission</p>
+      <p class="home-pub-note">Self-supervised pragmatic QA with counterfactual reasoning traces.</p>
+    </div>
+  </div>
 
-   **PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding**
+  <div class="home-pub-item">
+    <div><span class="home-pub-venue">AAAI</span></div>
+    <div>
+      <p class="home-pub-title">
+        <a href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">
+          A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation
+        </a>
+      </p>
+      <p class="home-pub-authors">S. H. Lewis, J. Jiao, Y. Xu, <strong>Jihyung Park</strong>, and C. Phillips</p>
+      <p class="home-pub-venue-line">In AAAI Workshop on AI for Urban Planning, 2026</p>
+      <p class="home-pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">paper</a>
+      </p>
+    </div>
+  </div>
 
-   **Jihyung Park**, M. Huang, L. Liu, and E. Stangel-Eskin
-
-   In submission
-
-2. AAAI AI4UP
-
-   [A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation](https://openreview.net/pdf?id=RYsPyMhgUM)
-
-   S. H. Lewis, J. Jiao, Y. Xu, **Jihyung Park**, and C. Phillips
-
-   In AAAI Workshop on AI for Urban Planning, 2026
-
-   <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">paper</a>
-
-3. arXiv
-
-   [AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue](https://arxiv.org/abs/2605.23974)
-
-   **Jihyung Park**, S. Afroogh, and J. Jiao
-
-   arXiv preprint, 2026
-
-   <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
-   <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
-
-4. EMNLP Findings
-
-   [MemeInterpret: Towards an All-in-one Dataset for Meme Understanding](https://aclanthology.org/2025.findings-emnlp.871/)
-
-   J. Park, K. P. N. Nguyen, **Jihyung Park**, M. Kim, J. Lee, J. W. Choi, K. Ganta, P. A. Kasu, R. Sarakinti, S. Vipperla, S. Sathanapalli, N. Vaghani, and V. Ng
-
-   In Findings of EMNLP, 2025
-
-   <a class="btn btn-sm z-depth-0" href="https://aclanthology.org/2025.findings-emnlp.871/" target="_blank" rel="noopener">acl</a>
-   <a class="btn btn-sm z-depth-0" href="https://aclanthology.org/2025.findings-emnlp.871.pdf" target="_blank" rel="noopener">pdf</a>
-   <a class="btn btn-sm z-depth-0" href="https://github.com/npnkhoi/MemeInterpret" target="_blank" rel="noopener">code</a>
+  <div class="home-pub-item">
+    <div><span class="home-pub-venue">arXiv</span></div>
+    <div>
+      <p class="home-pub-title">
+        <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
+          AERIC: Anticipatory Hidden-State Monitoring for Implicit Harmful Dialogue
+        </a>
+      </p>
+      <p class="home-pub-authors"><strong>Jihyung Park</strong>, S. Afroogh, and J. Jiao</p>
+      <p class="home-pub-venue-line">arXiv preprint, 2026</p>
+      <p class="home-pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">arxiv</a>
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2605.23974" target="_blank" rel="noopener">pdf</a>
+      </p>
+    </div>
+  </div>
+</div>
 
 For the full list, see [Publications]({{ '/publications/' | relative_url }}).
 
