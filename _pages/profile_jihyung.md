@@ -1,6 +1,6 @@
 ### Jihyung Park
 
-I am a computer science researcher at UT Austin working on LLMs, multimodal understanding, and practical AI systems.
+I am a computer science researcher with an M.S. in Computer Science from UT Austin, working on LLMs, multimodal understanding, and practical AI systems.
 
 **Focus**
 
