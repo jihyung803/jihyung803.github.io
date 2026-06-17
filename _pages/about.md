@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Austin, TX</p>
-    <p>Graduate Research Assistant</p>
-    <p>Urban Information Lab, UT Austin</p>
+    <p>M.S. Computer Science</p>
+    <p>The University of Texas at Austin</p>
 
 selected_papers: false
 social: true # includes social icons at the bottom of the page
@@ -23,11 +23,11 @@ latest_posts:
   enabled: false
 ---
 
-Hello. I am a computer science researcher at [The University of Texas at Austin](https://www.utexas.edu/) and a graduate research assistant in the [Urban Information Lab](https://sites.utexas.edu/uil/).
+Hello. I am a computer science researcher who recently completed an M.S. in Computer Science at [The University of Texas at Austin](https://www.utexas.edu/), where I worked as a graduate research assistant in the [Urban Information Lab](https://sites.utexas.edu/uil/).
 
 My work focuses on language models, multimodal understanding, and practical AI systems for urban and public-interest settings. I am especially interested in pragmatic reasoning, self-reinforcing training, safety monitoring, digital twins, and multimodal datasets.
 
-I received my B.S. in Computer Science from [The University of Texas at Dallas](https://www.utdallas.edu/), where I worked with the Human Language Technology Research Institute on meme understanding. I have also worked on LLM data generation and validation as an LLM trainer at Turing.
+Before UT Austin, I received my B.S. in Computer Science from [The University of Texas at Dallas](https://www.utdallas.edu/), where I worked with the Human Language Technology Research Institute on meme understanding. I have also worked on LLM data generation and validation as an LLM trainer at Turing.
 
 <style>
   .home-news,
@@ -214,6 +214,9 @@ Graduate Research Assistant
 LLM Trainer
 
 ## Education
+
+**The University of Texas at Austin**<br />
+M.S. in Computer Science
 
 **The University of Texas at Dallas**<br />
 B.S. in Computer Science
