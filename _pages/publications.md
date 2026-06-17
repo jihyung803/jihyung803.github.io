@@ -143,7 +143,6 @@ _styles: >
       <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
       <p class="pub-venue-line">In submission (EMNLP)</p>
-      <p class="pub-note">Self-supervised pragmatic QA with counterfactual reasoning traces.</p>
     </div>
     <div class="pub-year">2026</div>
   </div>
