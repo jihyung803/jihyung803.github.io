@@ -135,7 +135,7 @@ _styles: >
 
 <div class="pub-list">
   <div class="pub-item has-thumb">
-    <div><span class="pub-venue">Manuscript</span></div>
+    <div><span class="pub-venue">arXiv</span></div>
     <div class="pub-thumb">
       <img src="{{ '/assets/img/publication_preview/pragrest_thumb.png' | relative_url }}" alt="PRAGREST pipeline overview" />
     </div>
@@ -211,6 +211,25 @@ _styles: >
     <div class="pub-year">2026</div>
   </div>
 
+  <div class="pub-item has-thumb">
+    <div><span class="pub-venue">NeurIPS</span></div>
+    <div class="pub-thumb">
+      <img src="{{ '/assets/img/publication_preview/websumo_thumb.png' | relative_url }}" alt="Web-SUMO architecture overview" />
+    </div>
+    <div>
+      <p class="pub-title">
+        <a href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">
+          LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents
+        </a>
+      </p>
+      <p class="pub-authors">Y. Xu, <strong>Jihyung Park</strong>, and J. Jiao</p>
+      <p class="pub-venue-line">In NeurIPS Workshop on UrbanAI, 2025</p>
+      <p class="pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">paper</a>
+      </p>
+    </div>
+    <div class="pub-year">2025</div>
+  </div>
 
 
   <div class="pub-item has-thumb">
@@ -238,24 +257,6 @@ _styles: >
     <div class="pub-year">2025</div>
   </div>
 
-  <div class="pub-item has-thumb">
-    <div><span class="pub-venue">NeurIPS</span></div>
-    <div class="pub-thumb">
-      <img src="{{ '/assets/img/publication_preview/websumo_thumb.png' | relative_url }}" alt="Web-SUMO architecture overview" />
-    </div>
-    <div>
-      <p class="pub-title">
-        <a href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">
-          LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents
-        </a>
-      </p>
-      <p class="pub-authors">Y. Xu, <strong>Jihyung Park</strong>, and J. Jiao</p>
-      <p class="pub-venue-line">In NeurIPS Workshop on UrbanAI, 2025</p>
-      <p class="pub-links">
-        <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=vEZtmnqmtO" target="_blank" rel="noopener">paper</a>
-      </p>
-    </div>
-    <div class="pub-year">2025</div>
-  </div>
+
 
 </div>

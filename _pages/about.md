@@ -143,20 +143,24 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
     <p class="home-news-text"><strong>XR-DT</strong> was accepted to <strong>IROS 2026</strong>.</p>
   </div>
   <div class="home-news-row">
-    <div class="home-news-date">2026</div>
-    <p class="home-news-text">Wrote <strong>PRAGREST</strong>, a self-supervised framework for improving LLM pragmatic reasoning with counterfactual reasoning traces.</p>
-  </div>
-  <div class="home-news-row">
-    <div class="home-news-date">Feb 2026</div>
-    <p class="home-news-text">Decentralized digital twin work accepted to the <strong>AAAI AI4UP Workshop</strong>.</p>
+    <div class="home-news-date">May 2026</div>
+    <p class="home-news-text">Completed my M.S. in Computer Science at the <strong>University of Texas at Austin</strong>.</p>
   </div>
   <div class="home-news-row">
     <div class="home-news-date">Nov 2025</div>
-    <p class="home-news-text"><strong>MemeInterpret</strong> appeared in Findings of EMNLP 2025.</p>
+    <p class="home-news-text">Decentralized digital twin work accepted to the <strong>AAAI AI4UP Workshop</strong>.</p>
   </div>
   <div class="home-news-row">
-    <div class="home-news-date">2025</div>
-    <p class="home-news-text">Continued research on AERIC, Web-SUMO, and SafeMate at UT Austin.</p>
+    <div class="home-news-date">Sept 2025</div>
+    <p class="home-news-text">LLM-Powered Interactive Urban Mobility Simulation accepted to the <strong>NeurIPS Workshop on UrbanAI</strong>.</p>
+  </div>
+  <div class="home-news-row">
+    <div class="home-news-date">Aug 2025</div>
+    <p class="home-news-text"><strong>MemeInterpret</strong> was accepted to <strong>EMNLP Finding 2025</strong>.</p>
+  </div>
+  <div class="home-news-row">
+    <div class="home-news-date">May 2024</div>
+    <p class="home-news-text">Completed my B.S. in Computer Science at the <strong>University of Texas at Dallas</strong>.</p>
   </div>
 </div>
 
@@ -164,7 +168,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
 
 <div class="home-pubs">
   <div class="home-pub-item">
-    <div><span class="home-pub-venue">arxiv</span></div>
+    <div><span class="home-pub-venue">arXiv</span></div>
     <div>
       <p class="home-pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
       <p class="home-pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
@@ -173,7 +177,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
   </div>
 
   <div class="home-pub-item">
-    <div><span class="home-pub-venue">arxiv</span></div>
+    <div><span class="home-pub-venue">arXiv</span></div>
     <div>
       <p class="home-pub-title">
         <a href="https://arxiv.org/abs/2605.23974" target="_blank" rel="noopener">
