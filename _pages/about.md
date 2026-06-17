@@ -140,7 +140,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
 <div class="home-news">
   <div class="home-news-row">
     <div class="home-news-date">Jun 2026</div>
-    <p class="home-news-text"><strong>XR-DT</strong> was accepted to <strong>IROS 2026</strong>.</p>
+    <p class="home-news-text"><strong>XR-DT</strong> accepted to <strong>IROS 2026</strong>.</p>
   </div>
   <div class="home-news-row">
     <div class="home-news-date">May 2026</div>
@@ -148,7 +148,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
   </div>
   <div class="home-news-row">
     <div class="home-news-date">Nov 2025</div>
-    <p class="home-news-text">Decentralized digital twin work accepted to the <strong>AAAI AI4UP Workshop</strong>.</p>
+    <p class="home-news-text">Decentralized digital twin accepted to the <strong>AAAI AI4UP Workshop</strong>.</p>
   </div>
   <div class="home-news-row">
     <div class="home-news-date">Sept 2025</div>
@@ -156,7 +156,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
   </div>
   <div class="home-news-row">
     <div class="home-news-date">Aug 2025</div>
-    <p class="home-news-text"><strong>MemeInterpret</strong> was accepted to <strong>EMNLP Finding 2025</strong>.</p>
+    <p class="home-news-text"><strong>MemeInterpret</strong> accepted to <strong>EMNLP Finding 2025</strong>.</p>
   </div>
   <div class="home-news-row">
     <div class="home-news-date">May 2024</div>
