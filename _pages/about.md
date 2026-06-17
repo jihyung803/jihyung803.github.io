@@ -240,6 +240,9 @@ Graduate Research Assistant
 **Turing**<br />
 LLM Trainer
 
+**Human Language Technology Research Institute, UT Dallas**<br />
+Undergraduate Research Assistant
+
 ## Education
 
 **The University of Texas at Austin**<br />

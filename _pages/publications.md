@@ -208,7 +208,7 @@ _styles: >
         <a class="btn btn-sm z-depth-0" href="https://openreview.net/pdf?id=RYsPyMhgUM" target="_blank" rel="noopener">paper</a>
       </p>
     </div>
-    <div class="pub-year">2025</div>
+    <div class="pub-year">2026</div>
   </div>
 
   <div class="pub-item has-thumb">
