@@ -145,7 +145,7 @@ _styles: >
           PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding
         </a>
       </p>
-      <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
+      <p class="pub-authors"><strong>Jihyung Park</strong><sup>*</sup>, M. Huang<sup>*</sup>, L. Liu, and E. Stangel-Eskin</p>
       <p class="pub-venue-line">In submission (EMNLP)</p>
       <p class="pub-links">
         <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2606.18624" target="_blank" rel="noopener">arxiv</a>
@@ -188,7 +188,7 @@ _styles: >
         </a>
       </p>
       <p class="pub-authors">
-        T. Wang, J. Byeon, A. Yehia, Y. Xu, <strong>Jihyung Park</strong>, T. Zeng, S. Chen, Z. Wang, J. Jiao, and C. Claudel
+        T. Wang<sup>*</sup>, J. Byeon<sup>*</sup>, A. Yehia<sup>*</sup>, Y. Xu, <strong>Jihyung Park</strong>, T. Zeng, S. Chen, Z. Wang, J. Jiao, and C. Claudel
       </p>
       <p class="pub-venue-line">In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
       <p class="pub-links">
@@ -251,7 +251,7 @@ _styles: >
         </a>
       </p>
       <p class="pub-authors">
-        J. Park, K. P. N. Nguyen, <strong>Jihyung Park</strong>, M. Kim, J. Lee, J. W. Choi, K. Ganta, P. A. Kasu, R.
+        J. Park<sup>*</sup>, K. P. N. Nguyen<sup>*</sup>, <strong>Jihyung Park</strong>, M. Kim, J. Lee, J. W. Choi, K. Ganta, P. A. Kasu, R.
         Sarakinti, S. Vipperla, S. Sathanapalli, N. Vaghani, and V. Ng
       </p>
       <p class="pub-venue-line">In Findings of EMNLP, 2025</p>

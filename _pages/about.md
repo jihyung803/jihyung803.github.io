@@ -175,7 +175,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
           PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding
         </a>
       </p>
-      <p class="home-pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
+      <p class="home-pub-authors"><strong>Jihyung Park</strong><sup>*</sup>, M. Huang<sup>*</sup>, L. Liu, and E. Stangel-Eskin</p>
       <p class="home-pub-venue-line">In submission (EMNLP)</p>
       <p class="home-pub-links">
         <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2606.18624" target="_blank" rel="noopener">arxiv</a>
