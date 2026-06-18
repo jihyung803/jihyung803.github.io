@@ -210,7 +210,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
         </a>
       </p>
       <p class="home-pub-authors">
-        T. Wang, J. Byeon, A. Yehia, Y. Xu, <strong>Jihyung Park</strong>, T. Zeng, S. Chen, Z. Wang, J. Jiao, and C. Claudel
+        T. Wang<sup>*</sup>, J. Byeon<sup>*</sup>, A. Yehia<sup>*</sup>, Y. Xu, <strong>Jihyung Park</strong>, T. Zeng, S. Chen, Z. Wang, J. Jiao, and C. Claudel
       </p>
       <p class="home-pub-venue-line">In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</p>
       <p class="home-pub-links">
