@@ -140,9 +140,17 @@ _styles: >
       <img src="{{ '/assets/img/publication_preview/pragrest_thumb.png' | relative_url }}" alt="PRAGREST pipeline overview" />
     </div>
     <div>
-      <p class="pub-title">PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding</p>
+      <p class="pub-title">
+        <a href="https://arxiv.org/abs/2606.18624" target="_blank" rel="noopener">
+          PRAGREST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding
+        </a>
+      </p>
       <p class="pub-authors"><strong>Jihyung Park</strong>, M. Huang, L. Liu, and E. Stangel-Eskin</p>
       <p class="pub-venue-line">In submission (EMNLP)</p>
+      <p class="pub-links">
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2606.18624" target="_blank" rel="noopener">arxiv</a>
+        <a class="btn btn-sm z-depth-0" href="https://arxiv.org/pdf/2606.18624" target="_blank" rel="noopener">pdf</a>
+      </p>
     </div>
     <div class="pub-year">2026</div>
   </div>
