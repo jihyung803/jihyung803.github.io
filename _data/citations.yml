@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-06-29'
 papers:
   BZM-K8EAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: 'PragReST: Self-Reinforcing Counterfactual Reasoning for Pragmatic Language Understanding'
     year: '2026'
   BZM-K8EAAAAJ:d1gkVwhDpl0C:
-    citations: 4
+    citations: 3
     title: 'Safemate: A modular rag-based agent for context-aware emergency guidance'
     year: '2025'
   BZM-K8EAAAAJ:qjMakFHDy7sC:
