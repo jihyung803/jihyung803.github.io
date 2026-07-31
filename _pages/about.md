@@ -242,6 +242,9 @@ For the full list, see [Publications]({{ '/publications/' | relative_url }}).
 
 ## Work Experience
 
+**Intellichoice**<br />
+Pro Bono AI Engineer
+
 **Urban Information Lab, UT Austin**<br />
 Graduate Research Assistant
 
