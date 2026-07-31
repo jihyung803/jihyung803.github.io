@@ -144,7 +144,7 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
   </div>
   <div class="home-news-row">
     <div class="home-news-date">May 2026</div>
-    <p class="home-news-text">Completed my M.S. in Computer Science at the <strong>University of Texas at Austin</strong>.</p>
+    <p class="home-news-text">Completed my M.S. in Computer Science at the <strong>University of Texas at Austin</strong> (<a href="https://www.youtube.com/live/4Ro77IYi14k?si=sRV0UF5tHl9ndt80&amp;t=6839" target="_blank" rel="noopener">video</a>).</p>
   </div>
   <div class="home-news-row">
     <div class="home-news-date">Nov 2025</div>
