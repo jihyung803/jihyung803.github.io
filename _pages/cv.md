@@ -8,7 +8,7 @@ description:
 ---
 
 <iframe
-  src="{{ '/assets/pdf/Resume.pdf' | relative_url }}"
+  src="{{ '/assets/pdf/Resume.pdf' | relative_url }}?v=7c0a637"
   width="100%"
   height="900"
   style="border: 1px solid #ddd; border-radius: 4px;"
