@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Austin, TX</p>
-    <p>M.S. Computer Science</p>
-    <p>The University of Texas at Austin</p>
+    <p>Forward Deployed Engineer</p>
+    <p>Coforge</p>
 
 selected_papers: false
 social: true # includes social icons at the bottom of the page
@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-Hello. I am a computer science researcher who recently completed an M.S. in Computer Science at [The University of Texas at Austin](https://www.utexas.edu/), where I worked as a graduate research assistant in the [Urban Information Lab](https://sites.utexas.edu/uil/).
+Hello. I am a Forward Deployed Engineer at [Coforge](https://www.coforge.com/) and a computer science researcher. I recently completed an M.S. in Computer Science at [The University of Texas at Austin](https://www.utexas.edu/), where I worked as a graduate research assistant in the [Urban Information Lab](https://sites.utexas.edu/uil/).
 
 My work focuses on language models, multimodal understanding, and practical AI systems for public-interest settings. I am especially interested in pragmatic reasoning, self-reinforcing training, safety monitoring, digital twins, and multimodal datasets.
 
@@ -139,6 +139,10 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
 
 <div class="home-news">
   <div class="home-news-row">
+    <div class="home-news-date">Oct 2026</div>
+    <p class="home-news-text">Joined <strong>Coforge</strong> as a <strong>Forward Deployed Engineer</strong>.</p>
+  </div>
+  <div class="home-news-row">
     <div class="home-news-date">Jun 2026</div>
     <p class="home-news-text"><strong>XR-DT</strong> accepted to <strong>IROS 2026</strong>.</p>
   </div>
@@ -241,6 +245,9 @@ Before UT Austin, I received my B.S. in Computer Science from [The University of
 For the full list, see [Publications]({{ '/publications/' | relative_url }}).
 
 ## Work Experience
+
+**Coforge**<br />
+Forward Deployed Engineer
 
 **Intellichoice**<br />
 Pro Bono AI Engineer

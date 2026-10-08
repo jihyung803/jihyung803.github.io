@@ -9,10 +9,10 @@ last_name: Park
 contact_note: >
   Email is the fastest way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jihyung Park is a computer science researcher with an M.S. in Computer Science from UT Austin, working on LLMs, multimodal understanding, and practical AI systems.
+  Jihyung Park is a Forward Deployed Engineer at Coforge and a computer science researcher with an M.S. in Computer Science from UT Austin, working on LLMs, multimodal understanding, and practical AI systems.
 footer_text: >
   Jihyung Park
-keywords: jihyung park, ut austin, llm, multimodal ai, urban ai, portfolio
+keywords: jihyung park, coforge, forward deployed engineer, ut austin, llm, multimodal ai, urban ai, portfolio
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
